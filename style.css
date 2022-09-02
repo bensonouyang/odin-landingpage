@@ -40,6 +40,82 @@ body {
     color: #fff;
 }
 
+.bodyone {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 15px;
+    padding-bottom: 100px;
+}
+
+.imageboxes {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    
+}
+
+.squares {
+    display: flex;
+    flex-direction: column;
+    /* padding: 1em; */
+    width: 15em;
+    align-items: center;
+}
+
+.bodytwo {
+    background-color: #E5E7EB;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.bodytwo figure blockquote {
+    width: 50em;
+    text-align: left;
+}
+
+.bodytwo figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bodytwo .cite {
+    font-weight: 900;
+    font-size: 22px;
+    display: flex;
+    justify-content: flex-end;
+    width: 750px;
+}
+
+.bodytwo p {
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+    margin-bottom: -20px;
+}
+
+.squares p {
+    color: black;
+    font-size: 18px;
+    width: 175px;
+    /* text-align: center; */
+
+}
+
+.bodyone h1 {
+    font-weight: 900;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.squares img {
+    height: 175px;
+    width: 175px;
+    border-radius: 12px;
+}
+
 .secondheader img {
     /* display: flex; */
     color: #fff;
@@ -49,7 +125,7 @@ body {
     opacity: 50%;
 }
 
-.secondheader  h1 {
+.secondheader h1 {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
@@ -57,7 +133,8 @@ body {
     flex-flow: column wrap;
 }
 
-h2 {
+
+.headercontainer h2 {
     color: #F9FAF8;
     font-size: 24px;
 }
@@ -69,11 +146,8 @@ ul {
     margin-top: 25px;
 }
 
-li {
 
-}
-
-a,p {
+a, p {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
