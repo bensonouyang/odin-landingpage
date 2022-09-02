@@ -69,6 +69,43 @@ body {
     padding-bottom: 70px;
 }
 
+.bodythree {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 50px;
+}
+
+.lastcontainer {
+    display: flex;
+    border-radius: 8px;
+    background-color: #3882F6;
+    width: 50em;
+    height: 10em;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 130px;
+}
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.signupbutton button{
+    border: solid #fff;
+}
+
+.lastbody h2 {
+    color: #F9FAF8
+}
+
+.lastbody p {
+    margin-top: -20px;
+}
+
 .bodytwo figure blockquote {
     width: 50em;
     text-align: left;
@@ -114,6 +151,7 @@ body {
     height: 175px;
     width: 175px;
     border-radius: 12px;
+    border: solid #3882F6;
 }
 
 .secondheader img {
@@ -156,5 +194,5 @@ a, p {
 button {
     background-color: #3882F6;
     border-radius: 8px;
-    padding: 10px 25px;
+    padding: 8px 35px;
 }
